@@ -3,10 +3,73 @@
 <html>
   <head>
     <title>光と色／「RGBとCMYK」から本質を理解する。</title>
+    <style>
+      .max-width {width: 100%;}
+      .body-max-width {
+        width; 100%;
+        max-width: 800px;
+      }
+
+      .m-1em {margin: 1em;}
+      .p-1em {padding: 1em;}
+
+      .color-red {color: #ff0000;}
+      .color-green {color: #00ff00;}
+      .color-blue {color: #0000ff;}
+      .color-cyan {color: cyan;}
+      .color-magenta {color: magenta;}
+      .color-yellow {color: yellow;}
+      .color-keyplate {color: black;}
+      .bg-color-gray {background-color: lightgray;}
+
+    </style>
   </head>
-  <body>
+  <body class="body-max-width">
     <h1>
-      <h1>光と色／「RGBとCMYK」から本質を理解する。先人達はいかにして自然現象をデジタル化する事が出来たのか。</h1>
+      <h1>光と色／「RGBとCMYK」から本質を理解する。先人達はいかにして自然現象をデジタル化したのか。</h1>
     </h1>
+    <h2>
+      RGBとCMYKは色を表現する仕組みです。
+    </h2>
+    <section>
+      <h3>
+        RGBとは
+      </h3>
+      <p class="p-1em bg-color-gray">
+        R = <span class="color-red">Red</span>
+        G = <span class="color-green">Green</span>
+        B = <span class="color-blue">Blue</span>
+        の頭文字です。
+      </p>
+      <figure>
+        <img class="max-width" src="https://upload.wikimedia.org/wikipedia/commons/6/69/RGB.svg" alt="RGB">
+      </figure>
+      <form action="">
+        <input type="color" value="#ff0000" />
+        <input type="color" value="#00ff00" />
+        <input type="color" value="#0000ff" />
+      </form>
+    </section>
+    <section>
+      <h3>
+        CMYKとは
+      </h3>
+      <p class="p-1em bg-color-gray">
+        C = <span class="color-cyan">Cyan</span>
+        M = <span class="color-magenta">Magenta</span>
+        Y = <span class="color-yellow">Yellow</span>
+        K = <span class="color-keyplate">Key plate</span>
+        の頭文字です。
+      </p>
+      <figure>
+        <img class="max-width" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/CMYK_DIN_ISO_2846_1_LAB_to_RGB.svg" alt="CMYK">
+      </figure>
+      <form action="">
+        <input type="color" value="#009eef" />
+        <input type="color" value="#00ff00" />
+        <input type="color" value="" />
+        <input type="color" value="" />
+      </form>
+    </section>
   </body>
 </html>

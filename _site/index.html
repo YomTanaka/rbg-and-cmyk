@@ -6,8 +6,24 @@
     <style>
       .max-width {width: 100%;}
       .body-max-width {
-        width; 100%;
+        width: 100%;
         max-width: 800px;
+      }
+
+      section {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .divide-3 {
+        display : flex;
+      }
+
+      .divide-3 img {
+        min-width: 0;
       }
 
       .m-1em {margin: 1em;}
@@ -49,6 +65,17 @@
         <input type="color" value="#00ff00" />
         <input type="color" value="#0000ff" />
       </form>
+
+      <h3>
+        ディスプレイをカメラで撮影するとこうなります。
+      </h3>
+
+      <figure>
+        <img src="https://i.gzn.jp/img/2018/01/21/how-tv-works/cap00201.jpg" alt="RGB">
+        <img src="https://i.gzn.jp/img/2018/01/21/how-tv-works/cap00211.jpg" alt="RGB">
+        <img src="https://i.gzn.jp/img/2018/01/21/how-tv-works/cap00213.jpg" alt="RGB">
+      </figure>
+
     </section>
     <section>
       <h3>
@@ -62,13 +89,13 @@
         の頭文字です。
       </p>
       <figure>
-        <img class="max-width" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/CMYK_DIN_ISO_2846_1_LAB_to_RGB.svg" alt="CMYK">
+        <img class="max-width" src="https://upload.wikimedia.org/wikipedia/commons/0/08/CYMK_color_model.svg" alt="CMYK">
       </figure>
       <form action="">
-        <input type="color" value="#009eef" />
-        <input type="color" value="#00ff00" />
-        <input type="color" value="" />
-        <input type="color" value="" />
+        <input type="color" value="#00ffff" />
+        <input type="color" value="#e61484" />
+        <input type="color" value="#ffe700" />
+        <input type="color" value="#292d29" />
       </form>
     </section>
   </body>
